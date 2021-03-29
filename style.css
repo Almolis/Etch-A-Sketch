@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+}
+td {
+    border: 0.2px solid rgb(231, 224, 224); 
+    height: 5px;
+    width: 5px;
+}
+
