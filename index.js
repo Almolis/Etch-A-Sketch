@@ -11,7 +11,7 @@ function createBoard (rows, columns) {
     } return table
 }
 
-createBoard(100, 100)
+createBoard(100, 150)
 
 
 
