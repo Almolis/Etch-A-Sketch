@@ -1,4 +1,4 @@
-
+// #### CREATE CUSTOM BOARD
 function createBoard (rows, columns) {
     let table = document.querySelector(".table"); 
     for (let i =1; i <= rows; i++) {
@@ -14,18 +14,21 @@ function createBoard (rows, columns) {
 createBoard(100, 150)
 
 
+//##### SKETCH FUNCTIONALITY 
 
 let td = document.querySelectorAll("td");
 td.forEach(element => {
         element.addEventListener("mouseover", setColor);
       });      
+
 function setColor(){
         this.style.background = "grey";
       }
 
-//let children = document.querySelector(".table").children;
-let button = document.querySelector("button")
 
+//#### RESET TABLE 
+
+let button = document.querySelector("button")
 button.addEventListener("click", resetTable)
 
 function resetTable () {

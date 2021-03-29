@@ -8,12 +8,13 @@ body {
     display: flex; 
     justify-content: center;
     align-items: center;
+    background-image: url("./Light-Wood-Background-Texture-5.jpg");
 }
 
 .container {
     background-color: rgb(209, 28, 28);
-    width: 80vw; 
-    height: 100vh;
+    width: 80em; 
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +34,7 @@ body {
 h1 {
     text-align: center;
     text-shadow: 2px 2px #9b7817;
-    font-size: 80px;
+    font-size: xx-large;
 }
 td {
     border: 0.2px solid rgb(231, 224, 224); 
@@ -46,7 +47,7 @@ button {
     border: none;
     color: rgb(179, 137, 31); 
     text-shadow: 2px 2px #413820;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 button:hover {
