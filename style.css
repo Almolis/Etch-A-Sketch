@@ -12,7 +12,8 @@ body {
 }
 
 .container {
-    background-color: rgb(209, 28, 28);
+    background-image: linear-gradient(to right, rgb(214, 25, 25), rgb(155, 24, 24));
+    /* background-color: rgb(209, 28, 28); */
     width: 80em; 
     height: 800px;
     display: flex;
@@ -43,7 +44,7 @@ td {
 }
 
 button {
-    background-color: rgb(209, 28, 28);;
+    background-color: transparent;
     border: none;
     color: rgb(179, 137, 31); 
     text-shadow: 2px 2px #413820;
@@ -53,6 +54,7 @@ button {
 button:hover {
     color: rgb(248, 195, 62); 
     text-shadow: 2px 2px #9b7817;
+    cursor: pointer;
 }
 
 button:focus{
